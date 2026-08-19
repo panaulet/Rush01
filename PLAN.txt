@@ -1,0 +1,20 @@
+ARGC = ARGUMENT COUNT -> [a.out][test1][test2] = [1][2][3]
+ARGV = ARGUMENT VALUE -> [a.out][test1][test2] = [0][1][2]
+
+MALLOC -> ALLOUER DE LA MEMOIRE
+FREE -> LIBERE LA MEMOIRE
+malloc(sizeof(char/int) * (len))
+
+int nb = 10; -> ADRESSE = [0x53ckska295] -> VALEUR = 10
+*ptr = [0x53ckska295]
+
+char str[] = "Hello" -> [H][e][l][l][o][\0] -> [0][1][2][3][4][5]
+					||
+					-> Caracteres Fin de chaine
+					
+1 - VERFICATION ARGUMENT
+2 - EXTRACTION DIGITS
+3 - PRINT GRID
+4 - COMBINAISONS
+5 - CHECK LINE/ROW
+
